@@ -11,6 +11,7 @@ go get -u github.com/ExpBat2/greetings
 
 #ejemplo de uso
 
+```
 func main() {
 	log.SetPrefix("Greetings: ")
 	log.SetFlags(0)
@@ -28,3 +29,4 @@ func main() {
 	}
 	fmt.Println(mess)
 }
+```
